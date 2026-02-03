@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+      font-size: 20px;
+}
+.header{
+    text-align: center;
+
+}
+.contact-btn{
+    
+    text-decoration: none;
+    color: rgb(1, 76, 76);
+    border-radius: 10px;
+    background-color: aqua;
+    box-shadow: 2px 3px 4px gray;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.contact-btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    margin-right:20vh;
+    font-size: 15px;
+
+}
+.list li:hover{
+    transform: scale(1.05);
+
+}
+.about{
+    text-align: center;
+  
+}
+h2{
+    color:rgb(78, 0, 120);
+}
+.list li{transition: transform 0.2s ease;}
+
+strong{
+    font-size: 30px;
+}
+
+.card{
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(245, 245, 163);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px 10px 20px;
+    gap: 20px;
+}
+@media (max-width: 768px ) {
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
+}
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+  }
+
+  body {
+    margin: 0;
+    background-color: #fdfdfd;
+  }
+  .contact-btn {
+    padding: 12px 24px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  header {
+    padding: 40px 20px;
+  }
+.end{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 24px;
+
+}
